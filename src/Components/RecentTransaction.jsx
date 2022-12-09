@@ -3,28 +3,6 @@ import React, { useEffect, useState } from 'react'
 import { baseUrl } from '../App';
 import RecentCard from './RecentCard'
 
-const data = [
-    {
-        name : "Jiko Mobile App",
-        date : "12 Nov 2014 4:45AM",
-        price : 15
-    },
-    {
-        name : "Jiko Mobile App",
-        date : "12 Nov 2014 4:45AM",
-        price : 25
-    },
-    {
-        name : "Jiko Mobile App",
-        date : "12 Nov 2014 4:45AM",
-        price : 20
-    },
-    {
-        name : "Jiko Mobile App",
-        date : "12 Nov 2014 4:45AM",
-        price : 30
-    }
-]
 
 export default function RecentTransaction() {
   const [transactions, setTransactions] = useState([]);

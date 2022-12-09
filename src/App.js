@@ -17,6 +17,7 @@ function App() {
   );
 }
 
-export const baseUrl = "http://localhost:8080"
+// export const baseUrl = "http://localhost:8080"
+export const baseUrl = "https://crop-case-backend.onrender.com"
 
 export default App;
